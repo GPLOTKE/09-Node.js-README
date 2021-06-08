@@ -2,6 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown.js');
+const chalk = require('chalk');
 
 // console.log('package is:', package)
 
@@ -10,9 +11,9 @@ const questions = ['What is your github username?',
     'What is your email address?',
     'What is your project name?',
     'Please write a description of your project.',
-    'What kind of license should your project have?',
-    'What command should be run to install the dependencies?',
-    'What command should be run to run tests?',
+    'What kind of license should your project have? (Use arrow keys)',
+    'What command should be executed to install the dependencies? (npm i)',
+    'What command should be executed to run tests? (npm test)',
     'What does the user need to know about using the repository?',
     'What does the user need to know about contributing to the repository?',
 ];
@@ -78,7 +79,7 @@ inquirer
             err ? console.log(err) : console.log('Successfully created README.md!')
         );
     });
-// function writeToFile(fileName, data) {}
+
 
 // TODO: Create a function to initialize app
 function init() {}
