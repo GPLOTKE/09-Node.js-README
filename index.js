@@ -1,5 +1,6 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
+const fs = require('fs');
 
 // console.log('package is:', package)
 
