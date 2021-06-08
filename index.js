@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateMarkdown = require('./generateMarkdown');
+const generateMarkdown = require('./utils/generateMarkdown.js');
 
 // console.log('package is:', package)
 
@@ -72,7 +72,7 @@ inquirer
     ])
     // TODO: Create a function to write README file
     .then((data) => {
-        const readmeContent = generateMarkdown(answers);
+        const readmeContent = generateMarkdown(data);
 
         fs.writeFile('README.md', readmeContent, (err) =>
             err ? console.log(err) : console.log('Successfully created README.md!')
