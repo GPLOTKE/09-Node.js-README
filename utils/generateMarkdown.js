@@ -4,7 +4,19 @@ function renderLicenseBadge(license) {}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+    if (license === 'MIT') {
+        return 'https://opensource.org/licenses/MIT'
+    } else if (license === 'None') {
+        return ''
+    } else if (license === 'ISC') {
+        return 'https://opensource.org/licenses/ISC'
+    } else if (license === 'Apache 2.0') {
+        return 'https://opensource.org/licenses/Apache-2.0'
+    } else if (license === 'GNU_GPLv3') {
+        return 'https://opensource.org/licenses/GPL-3.0'
+    }
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -49,8 +61,11 @@ function generateMarkdown(data) {
 
     ## Questions:
 
-    You can contact me with any questions at the following email address: ${data.email}
-    You can find me on GitHub at https://github.com/${data.username}
+    You can contact me with any questions at the following:
+    
+        - Email: ${data.email}
+    
+        - GitHub: https://github.com/${data.username}
 `;
 }
 
