@@ -1,6 +1,6 @@
 ## README Generator
 
-<iframe src="https://drive.google.com/file/d/1R495CoOlVAbJD_B9TcVji6jKj9oNlpjv/preview" width="640" height="480"></iframe>
+https://drive.google.com/file/d/1R495CoOlVAbJD_B9TcVji6jKj9oNlpjv/view
 
     ## Table of Contents:
     - Description
