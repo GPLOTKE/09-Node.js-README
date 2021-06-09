@@ -1,5 +1,7 @@
 ## README Generator
 
+<iframe src="https://drive.google.com/file/d/1R495CoOlVAbJD_B9TcVji6jKj9oNlpjv/preview" width="640" height="480"></iframe>
+
     ## Table of Contents:
     - Description
     - Installation
@@ -11,15 +13,15 @@
 
     ## Description:
 
-    aaa
+    This application will generate a professional README.md file from your terminal command line.
 
     ## Installation:
 
-    npm i
+    Use npm i to execute commands to install dependencies.
 
     ## Usage:
 
-    aaa
+    To use this application type node index.js in the correct file path of your terminal.
 
     ## License:
 
@@ -27,13 +29,16 @@
 
     ## Contributing:
 
-    aaa
+    Everyone is welcome to contribute to this application!
 
     ## Tests:
 
-    nmp test
+    Use npm test to run tests.
 
     ## Questions:
 
-    You can contact me with any questions at the following email address: jerry.plotke@gmail.com
-    You can find me on GitHub at https://github.com/GPLOTKE
+    You can contact me with any questions at the following:
+    
+        - Email: jerry.plotke@gmail.com
+    
+        - GitHub: https://github.com/GPLOTKE
